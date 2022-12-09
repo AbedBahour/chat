@@ -7,19 +7,26 @@
         <div class="chat-box-contact">Hilda Hansen</div>
         <div class="chat-box-order">#123456</div>
         <div class="break"></div>
-        <div class="chat-box-menu dash-has-menu">
+        <div class="chat-box-menu dash-has-menu" @click="handleClick">
             <div class="chat-box-icon">
                 <i class="fas fa-ellipsis-v"></i>
-                <ul class="dash-sub-menu">
-                    <li class="dash-sub-menu-item"><a href="javascript:void(0)">Create An Agreement</a></li>
-                    <li class="dash-sub-menu-item"><a href="javascript:void(0)">Send File </a></li>
-                    <li class="dash-sub-menu-item"><a href="javascript:void(0)">Reporting</a></li>
+                <ul class="dash-sub-menu" :style="{display: active ? '' : 'none',}">
+                    <li class="dash-sub-menu-item"><router-link :to="{name:'Agreement'}">Create An Agreement</router-link></li>
+                    <li class="dash-sub-menu-item"><router-link :to="{name:'SendFile'}">Send File </router-link></li>
+                    <li class="dash-sub-menu-item"><router-link :to="{name:'Reporting'}">Reporting</router-link></li>
                 </ul>
             </div>
         </div>
         <button id="open-agreements" class="dash-btn sm"> <span>Attachments</span> </button>
     </div>
 </template>
+<script setup>
+import { ref } from 'vue'
+const active = ref('false')
+function handleClick(){
+    active.value = !active.value
+}
+</script>
 <style scoped>
 .chat-box-header{
     display: flex;
@@ -87,7 +94,6 @@
     background-color: #fff;
     position: absolute;
     padding: 10px;
-    display: none;
 }
 .dash-sub-menu-item{
     margin: 10px 0;

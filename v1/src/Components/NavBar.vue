@@ -391,13 +391,6 @@
                 gap:20px;
             }
         }
-
-        @media{
-            nav #dash-notifications-menu{
-                min-width: 320px;
-            }
-        }
-
         @media(max-width:1250px){
             .menu-icon-btn{
                 display: block;

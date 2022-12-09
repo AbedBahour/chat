@@ -1,8 +1,8 @@
 const msg = [
     {
         id:"1",
-        src:"../../images/contact-image.png",
-        contactName: "Ricardo Lopez",
+        src:"https://pickaface.net/gallery/avatar/20151205_194059_2696_Chat.png",
+        contactName: "Abed",
         lastMsgDatails:
         {
             lastMsg : "one Ways To Get Travel Disco…",
@@ -12,8 +12,8 @@ const msg = [
     },
     {
         id:"2",
-        src:"../../images/contact-image.png",
-        contactName: "Jameel Matar",
+        src:"https://pickaface.net/gallery/avatar/20151205_194059_2696_Chat.png",
+        contactName: "Samir",
         lastMsgDatails:
         {
             lastMsg : "two Ways To Get Travel Disco…",
@@ -23,8 +23,8 @@ const msg = [
     },
     {
         id:"3",
-        src:"../../images/contact-image.png",
-        contactName: "Ahmed Matar",
+        src:"https://pickaface.net/gallery/avatar/20151205_194059_2696_Chat.png",
+        contactName: "Ahmed",
         lastMsgDatails:
         {
             lastMsg : "Three Ways To Get Travel Disco…",
