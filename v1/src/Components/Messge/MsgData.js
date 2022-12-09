@@ -2,7 +2,7 @@ const msg = [
     {
         id:"1",
         src:"../../images/contact-image.png",
-        contactName: "Abed",
+        contactName: "Ricardo Lopez",
         lastMsgDatails:
         {
             lastMsg : "one Ways To Get Travel Disco…",
@@ -13,7 +13,7 @@ const msg = [
     {
         id:"2",
         src:"../../images/contact-image.png",
-        contactName: "Samir",
+        contactName: "Jameel Matar",
         lastMsgDatails:
         {
             lastMsg : "two Ways To Get Travel Disco…",
@@ -24,7 +24,7 @@ const msg = [
     {
         id:"3",
         src:"../../images/contact-image.png",
-        contactName: "Ahmed",
+        contactName: "Ahmed Matar",
         lastMsgDatails:
         {
             lastMsg : "Three Ways To Get Travel Disco…",

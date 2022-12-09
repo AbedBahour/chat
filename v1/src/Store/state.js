@@ -5,7 +5,7 @@ export default {
             type:'sender',
             image : 'https://pickaface.net/gallery/avatar/20151205_194059_2696_Chat.png',
             messageType:'text',
-            messageContent:'Hello Samir',
+            messageContent:'Hello Jameel',
             messageTime:'07:44 am',
         },
         {
